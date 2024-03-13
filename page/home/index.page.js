@@ -93,6 +93,90 @@ Page({
     this.state.widgets.push(widget);
     return widget;
   },
+  createButton() {
+      const iconsize = 100;
+      const titleHeight = 35;
+      const valueHeight = 15;
+      const entitiesGap = 5;
+      const totalHeight = iconsize + valueHeight + entitiesGap + titleHeight;
+      this.createWidget(hmUI.widget.TEXT, {
+          x: 0,
+          y: this.state.y,
+          w: DEVICE_WIDTH,
+          h: titleHeight,
+          text: "Devices",
+          text_size: 25,
+          color: 0xFFFFFF,
+          align_h: hmUI.align.CENTER_H,
+      });
+      const device_button = this.createWidget(hmUI.widget.IMG, {
+          x: DEVICE_WIDTH / 2 - 50,
+          y: this.state.y + titleHeight,
+          src: "devices.png",
+          text: "Devices",
+          align_h: hmUI.align.CENTER_H,
+      });
+      device_button.addEventListener(hmUI.event.CLICK_UP, () => {
+          hmApp.gotoPage({ file: "page/devices/index.page", });
+      });
+      this.state.y += totalHeight;
+  },
+  createButton2() {
+      const iconsize = 100;
+      const titleHeight = 35;
+      const valueHeight = 15;
+      const entitiesGap = 5;
+      const totalHeight = iconsize + valueHeight + entitiesGap + titleHeight;
+      this.createWidget(hmUI.widget.TEXT, {
+          x: 0,
+          y: this.state.y,
+          w: DEVICE_WIDTH,
+          h: titleHeight,
+          text: "Scripts",
+          text_size: 25,
+          color: 0xFFFFFF,
+          align_h: hmUI.align.CENTER_H,
+      });
+      const device_button = this.createWidget(hmUI.widget.IMG, {
+          x: DEVICE_WIDTH / 2 - 50,
+          y: this.state.y + titleHeight,
+          src: "scripts.png",
+          text: "Scripts",
+          align_h: hmUI.align.CENTER_H,
+      });
+      device_button.addEventListener(hmUI.event.CLICK_UP, () => {
+          hmApp.gotoPage({ file: "page/scripts/index.page", });
+      });
+      this.state.y += totalHeight;
+  },
+  createButton3() {
+      const iconsize = 100;
+      const titleHeight = 35;
+      const valueHeight = 15;
+      const entitiesGap = 5;
+      const totalHeight = iconsize + valueHeight + entitiesGap + titleHeight;
+      this.createWidget(hmUI.widget.TEXT, {
+          x: 0,
+          y: this.state.y,
+          w: DEVICE_WIDTH,
+          h: titleHeight,
+          text: "Sensors",
+          text_size: 25,
+          color: 0xFFFFFF,
+          align_h: hmUI.align.CENTER_H,
+      });
+      const device_button = this.createWidget(hmUI.widget.IMG, {
+          x: DEVICE_WIDTH / 2 - 50,
+          y: this.state.y + titleHeight,
+          src: "sensors.png",
+          text: "Sensors",
+          align_h: hmUI.align.CENTER_H,
+      });
+      device_button.addEventListener(hmUI.event.CLICK_UP, () => {
+          hmApp.gotoPage({ file: "page/sensors/index.page", });
+      });
+      this.state.y += totalHeight;
+  },
   createEntity(item) {
     const titleHeight = 32;
     const valueHeight = 32;
@@ -248,9 +332,9 @@ Page({
   createAndUpdateList() {
     this.clearWidgets();
     this.state.rendered = false;
-    this.state.dataList.forEach((item) => {
-      this.createElement(item);
-    });
+    this.createButton();
+    this.createButton2();
+    this.createButton3();
     this.createElement("end");
     this.state.rendered = true;
   },
