@@ -15,7 +15,7 @@ We are making changes in order to suppport more Zepp devices, if you have one as
 ### 🎨 Features
 - See your entities in 3 categories (devices, scripts and sensors)
 - Control your devices (toggle switch, toggle light and see its effect if presented, change its brightness if possible, control media entities with play/pause, prev/next, volume control)
-- Run your scripts an automations
+- Run your scripts and automations
 - Show sensors data in your device
 
 ### 📦 Installation guide
