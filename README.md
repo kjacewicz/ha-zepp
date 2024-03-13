@@ -1,5 +1,5 @@
 # Home Assistant companion for Zepp OS devices
-This application allows you to control your Home Assistant devices from your Zepp Watch, and it is based on this [application developed by ga2mer](https://github.com/ga2mer/ha-zepp).
+This application allows you to control your Home Assistant devices from your Zepp Watch, and it is based on this [application developed by ga2mer](https://github.com/ga2mer/ha-zepp) (<b>thanks for that!</b> 🥰).
 
 <img src="images/img1.jpg" width="300" height="300"> <img src="images/img2.jpg" width="300" height="300">
 
