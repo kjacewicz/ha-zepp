@@ -1,7 +1,7 @@
 # Home Assistant companion for Zepp OS devices
 This application allows you to control your Home Assistant devices from your Zepp Watch!
 
-![image](images/img1.jpg)
+![image](images/img1.jpg) ![image](images/img2.jpg)
 
 ### ⌚ Devices supported
 - Xiaomi Band 7
@@ -13,6 +13,7 @@ We are making changes in order to suppport more Zepp devices, if you have one as
 
 ### 🎨 Features
 - See your entities in 3 categories (devices, scripts and sensors)
+- Control your devices (toggle switch, toggle light and see its effect if presented, change its brightness if possible, control media entities with play/pause, prev/next, volume control)
 
 ### 📦 Installation guide
 #### ⚠️ If you have a Xiaomi Band 7!!
