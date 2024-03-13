@@ -16,14 +16,12 @@ We are making changes in order to suppport more Zepp devices, if you have one as
 You need to do some steps before, in order to connect it to the official Zepp App. I highly recommend you to follow [this guide](https://aguacatec.es/instalar-ha-en-la-xiaomi-band-7/).
 In short, you need to modify the QR code of the bracelet to be able to link it with the application. In the aforementioned guide I show you how to do it easily.
 
-#### 🪄General steps
-- Download the official Zepp App
-- You need to enable [Developer Mode](https://docs.zepp.com/docs/1.0/guides/tools/zepp-app/) in Zepp app
+#### 🪄 General steps
+🥑 Again, i highly recommend you to follow this guide, since all the steps are more detailed and it is more difficult to get lost! Anyway, if you are an advanced user, just follow this steps:
+- Download and install the official Zepp App for [Android](https://play.google.com/store/apps/details?id=com.huami.watch.hmwatchmanager) or [iOS](https://apps.apple.com/es/app/zepp-formerly-amazfit/id1127269366).
+- Enable [Developer Mode](https://docs.zepp.com/docs/1.0/guides/tools/zepp-app/) in Zepp App. 
 - Build and install the ha-zepp application yourself using the [Zeus CLI](https://docs.zepp.com/docs/1.0/guides/tools/cli/)
-- Open the application settings and specify the addresses of Home Assistant, Long-lived access token and select the sensors you want to display on Zepp OS device
-#### Home Assistant
-- Long-lived access token (you can generate it on your-ha-instance.local/profile page)
-- "If you are not using the [`frontend`](https://www.home-assistant.io/integrations/frontend/) in your setup then you need to add the [`api` integration](https://www.home-assistant.io/integrations/api/) to your `configuration.yaml` file."
+- Open the application settings and specify the addresses of Home Assistant, Long-lived access token (you can generate it on your-ha-instance.local/profile page) and select the entities you want to display on Zepp OS device
 
 ### About the sensor updates to the Home Assitant REST API
 Since it is not possible for the general public to access [Huami's WEB API](https://github.com/zepp-health/rest-api/wiki), I decided to make a background updater within this app to send the wearable sensor data to Home Assistant.
