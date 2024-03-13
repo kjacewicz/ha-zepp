@@ -16,7 +16,7 @@ We are making changes in order to suppport more Zepp devices, if you have one as
 You need to do some steps before, in order to connect it to the official Zepp App. I highly recommend you to follow [this guide](https://aguacatec.es/instalar-ha-en-la-xiaomi-band-7/).
 In short, you need to modify the QR code of the bracelet to be able to link it with the application. In the aforementioned guide I show you how to do it easily.
 
-#### General steps
+#### 🪄General steps
 - Download the official Zepp App
 - You need to enable [Developer Mode](https://docs.zepp.com/docs/1.0/guides/tools/zepp-app/) in Zepp app
 - Build and install the ha-zepp application yourself using the [Zeus CLI](https://docs.zepp.com/docs/1.0/guides/tools/cli/)
