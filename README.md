@@ -26,6 +26,7 @@ In short, you need to modify the QR code of the bracelet to be able to link it w
 ### ♥️ Support us!
 We keep working to improve the interface, to add funtionalities and to make it compatible with more Zepp devices. If you want to support us you can do it by:
 💬 Join our [Telegram community](https://t.me/aguacatec_es)
+
 🌍 Follow us in [Facebook](https://www.facebook.com/people/Aguacatec/100094561999571/), [Twitter](https://twitter.com/aguacatec_es), [Instagram](https://www.instagram.com/aguacatec_es/), [YouTube](https://www.youtube.com/channel/UC-lBXak7y2RFoghB1QMgbdw) and [TikTok](https://www.tiktok.com/@aguacatec_es)
 📧 [Subscribe](https://aguacatec.es/gana-premios-con-aguacatec/) to aguacatec to get new ideas like this one
 ☕ Consider to [Buy me a coffee](https://www.buymeacoffee.com/aguacatec)
