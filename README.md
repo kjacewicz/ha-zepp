@@ -3,7 +3,7 @@ This application allows you to control your Home Assistant devices from your Zep
 
 ![image](images/banner.png)
 
-### Devices supported
+### ⌚ Devices supported
 - Mi Band 7
 - Amazfit GTR 3 Pro
 - Amazfit Cheetah Pro
@@ -11,13 +11,11 @@ This application allows you to control your Home Assistant devices from your Zep
 
 We are making changes in order to suppport more Zepp devices, if you have one ask for it in our [telegram community](https://t.me/aguacatec_es) 💬
 
+### 📦 Installation guide
+#### ⚠️ If you have a Xiaomi Band 7!!
+You need to do some steps before, in order to connect it to the official Zepp App. I highly recommend you to follow [this guide](https://aguacatec.es/instalar-ha-en-la-xiaomi-band-7/).
+In short, you need to modify the QR code of the bracelet to be able to link it with the application. In the aforementioned guide I show you how to do it easily.
 
-
-### Preparations
-#### Mi Band 7 only
-- ~~[Modified Zepp App](https://4pda.to/forum/index.php?showtopic=797981&st=15700#entry122653549) (registration required)~~
-- ~~You need to connect Mi Band 7 to Modified Zepp App the same way you would with Zepp Life (google auth is not  supported)~~
-- You can use the official Zepp App, but have to create a custom QR code. Follow [this guide](https://habr.com/en/articles/699368/) for the URL of the QR code you have to adapt.
 #### General steps
 - Download the official Zepp App
 - You need to enable [Developer Mode](https://docs.zepp.com/docs/1.0/guides/tools/zepp-app/) in Zepp app
