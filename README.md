@@ -3,26 +3,13 @@ This application allows you to control your Home Assistant devices from your Zep
 
 ![image](images/banner.png)
 
-## Features
-- (Binary) Sensor status
-- Toggle switch
-- Toggle light, see its effect (if presented), change its brightness (if this possible)
-- Media player support with play/pause, prev/next, volume control
-- Input boolean
-- Start/stop scripts
-- Enable/disable automations
-- Update sensors info to Home Assistant REST API (Not stable! Turn off notications on the wearable for most stable experience)
-
-### To Do:
-- Fix some bugs in the ha-zepp settings page
-- Editing colors for lights
-- Open for suggestions
-
 ### Devices supported
 - Mi Band 7
-- Amazfit Band 7
-- Amazfit T-Rex 2
-- All other Zepp OS devices, but there is no proper UI for them and you need to add the build configuration yourself
+- Amazfit GTR 3 Pro
+- Amazfit Cheetah Pro
+- Amazfit Active
+
+
 
 ### Preparations
 #### Mi Band 7 only
