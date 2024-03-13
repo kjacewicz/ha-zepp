@@ -9,7 +9,7 @@ This application allows you to control your Home Assistant devices from your Zep
 - Amazfit Cheetah Pro
 - Amazfit Active
 
-We are making changes in order to suppport more Zepp devices, if you have one ask for it in our [telegram community](https://t.me/aguacatec_es).
+We are making changes in order to suppport more Zepp devices, if you have one ask for it in our [telegram community](https://t.me/aguacatec_es) 💬
 
 
 
