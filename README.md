@@ -23,6 +23,9 @@ Again, i highly recommend you to follow this guide, since all the steps are more
 - Build and install the ha-zepp application yourself using the [Zeus CLI](https://docs.zepp.com/docs/1.0/guides/tools/cli/)
 - Open the application settings and specify the addresses of Home Assistant, Long-lived access token and select the entities you want to display on Zepp OS device
 
+#### 🛟 Need help?
+No problem! We can help you out to make it work! Just get into our [Telegram community](https://t.me/aguacatec_es) and ask for help. We have a topic dedicated to the application, and a room where we speak English 🌍
+
 ### ♥️ Support us!
 We keep working to improve the interface, to add funtionalities and to make it compatible with more Zepp devices. If you want to support us you can do it by:
 
