@@ -17,7 +17,7 @@ You need to do some steps before, in order to connect it to the official Zepp Ap
 In short, you need to modify the QR code of the bracelet to be able to link it with the application. In the aforementioned guide I show you how to do it easily.
 
 #### 🪄 General steps
-🥑 Again, i highly recommend you to follow this guide, since all the steps are more detailed and it is more difficult to get lost! Anyway, if you are an advanced user, just follow this steps:
+Again, i highly recommend you to follow this guide, since all the steps are more detailed and it is more difficult to get lost! Anyway, if you are an advanced user, just follow this steps:
 - Download and install the official Zepp App for [Android](https://play.google.com/store/apps/details?id=com.huami.watch.hmwatchmanager) or [iOS](https://apps.apple.com/es/app/zepp-formerly-amazfit/id1127269366).
 - Enable [Developer Mode](https://docs.zepp.com/docs/1.0/guides/tools/zepp-app/) in Zepp App. 
 - Build and install the ha-zepp application yourself using the [Zeus CLI](https://docs.zepp.com/docs/1.0/guides/tools/cli/)
