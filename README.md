@@ -1,5 +1,5 @@
 # Home Assistant companion for Zepp OS devices
-Application that allows you to control Home Assistant
+This application allows you to control your Home Assistant devices from your Zepp Watch!
 
 ![image](images/banner.png)
 
