@@ -21,7 +21,7 @@ In short, you need to modify the QR code of the bracelet to be able to link it w
 - Download and install the official Zepp App for [Android](https://play.google.com/store/apps/details?id=com.huami.watch.hmwatchmanager) or [iOS](https://apps.apple.com/es/app/zepp-formerly-amazfit/id1127269366).
 - Enable [Developer Mode](https://docs.zepp.com/docs/1.0/guides/tools/zepp-app/) in Zepp App. 
 - Build and install the ha-zepp application yourself using the [Zeus CLI](https://docs.zepp.com/docs/1.0/guides/tools/cli/)
-- Open the application settings and specify the addresses of Home Assistant, Long-lived access token (you can generate it on your-ha-instance.local/profile page) and select the entities you want to display on Zepp OS device
+- Open the application settings and specify the addresses of Home Assistant, Long-lived access token and select the entities you want to display on Zepp OS device
 
 ### About the sensor updates to the Home Assitant REST API
 Since it is not possible for the general public to access [Huami's WEB API](https://github.com/zepp-health/rest-api/wiki), I decided to make a background updater within this app to send the wearable sensor data to Home Assistant.
