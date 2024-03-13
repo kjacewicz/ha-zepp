@@ -1,7 +1,7 @@
 # Home Assistant companion for Zepp OS devices
 Application that allows you to control Home Assistant
 
-![image](images/1.png)  ![image](images/2.png) ![image](images/3.png)
+![image](images/banner.png)
 
 ## Features
 - (Binary) Sensor status
