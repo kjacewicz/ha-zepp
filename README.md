@@ -1,7 +1,7 @@
 # Home Assistant companion for Zepp OS devices
 This application allows you to control your Home Assistant devices from your Zepp Watch!
 
-![image](images/banner.png)
+![image](images/img1.jpg)
 
 ### ⌚ Devices supported
 - Xiaomi Band 7
@@ -10,6 +10,9 @@ This application allows you to control your Home Assistant devices from your Zep
 - Amazfit Active
 
 We are making changes in order to suppport more Zepp devices, if you have one ask for it in our [telegram community](https://t.me/aguacatec_es) 💬 On the other hand, if you are considering to buy one, [check this out!](https://s.click.aliexpress.com/e/_DdSQKvj) 💸
+
+### 🎨 Features
+- See your entities in 3 categories (devices, scripts and sensors)
 
 ### 📦 Installation guide
 #### ⚠️ If you have a Xiaomi Band 7!!
