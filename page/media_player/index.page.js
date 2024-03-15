@@ -1,3 +1,4 @@
+import {t, extendLocale} from "../../lib/i18n";
 import { DEVICE_HEIGHT, DEVICE_WIDTH, TOP_BOTTOM_OFFSET } from "../home/index.style";
 import { nativeSlider } from "../../controls/nativeSlider";
 import { createProgressBar } from "../../controls/progressBar";
