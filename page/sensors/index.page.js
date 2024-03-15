@@ -1,4 +1,5 @@
 // import { getScrollListDataConfig } from '../../utils'
+import {t, extendLocale} from "../../lib/i18n";
 import { DEVICE_HEIGHT, DEVICE_WIDTH, TOP_BOTTOM_OFFSET } from "./index.style";
 
 const {
