@@ -1,3 +1,4 @@
+import {t, extendLocale} from "../../lib/i18n";
 import { DEVICE_HEIGHT, DEVICE_WIDTH } from "../home/index.style";
 const logger = DeviceRuntimeCore.HmLogger.getLogger("ha-zepp-update-sensors");
 const { messageBuilder, appId, FS_REF_SENSORS_UPDATE_ALARM_ID, FS_REF_SENSORS_UPDATE_TIMESTAMP } =
