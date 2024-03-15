@@ -2,6 +2,13 @@
 import {t, extendLocale} from "../../lib/i18n";
 import { DEVICE_HEIGHT, DEVICE_WIDTH, TOP_BOTTOM_OFFSET } from "./index.style";
 
+extendLocale({
+  "devices": {
+      "en-US": "Devices",
+      "es-ES": "Dispositivos"
+  }
+});
+
 const {
   messageBuilder,
   FS_REF_SENSORS_UPDATE_ALARM_ID,
@@ -105,7 +112,7 @@ Page({
           y: this.state.y,
           w: DEVICE_WIDTH,
           h: titleHeight,
-          text: "Devices",
+          text: t("devices"),
           text_size: 25,
           color: 0xFFFFFF,
           align_h: hmUI.align.CENTER_H,
@@ -114,7 +121,7 @@ Page({
           x: DEVICE_WIDTH / 2 - 50,
           y: this.state.y + titleHeight,
           src: "devices.png",
-          text: "Devices",
+          text: t("devices"),
           align_h: hmUI.align.CENTER_H,
       });
       device_button.addEventListener(hmUI.event.CLICK_UP, () => {
