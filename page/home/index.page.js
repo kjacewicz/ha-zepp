@@ -6,6 +6,14 @@ extendLocale({
   "devices": {
       "en-US": "Devices",
       "es-ES": "Dispositivos"
+  },
+  "scripts": {
+      "en-US": "Scripts",
+      "es-ES": "Scripts"
+  },
+  "sensors": {
+      "en-US": "Sensors",
+      "es-ES": "Sensores"
   }
 });
 
@@ -140,7 +148,7 @@ Page({
           y: this.state.y,
           w: DEVICE_WIDTH,
           h: titleHeight,
-          text: "Scripts",
+          text: t("scripts"),
           text_size: 25,
           color: 0xFFFFFF,
           align_h: hmUI.align.CENTER_H,
@@ -149,7 +157,7 @@ Page({
           x: DEVICE_WIDTH / 2 - 50,
           y: this.state.y + titleHeight,
           src: "scripts.png",
-          text: "Scripts",
+          text: t("scripts"),
           align_h: hmUI.align.CENTER_H,
       });
       device_button.addEventListener(hmUI.event.CLICK_UP, () => {
@@ -168,7 +176,7 @@ Page({
           y: this.state.y,
           w: DEVICE_WIDTH,
           h: titleHeight,
-          text: "Sensors",
+          text: t("sensors"),
           text_size: 25,
           color: 0xFFFFFF,
           align_h: hmUI.align.CENTER_H,
@@ -177,7 +185,7 @@ Page({
           x: DEVICE_WIDTH / 2 - 50,
           y: this.state.y + titleHeight,
           src: "sensors.png",
-          text: "Sensors",
+          text: t("sensors"),
           align_h: hmUI.align.CENTER_H,
       });
       device_button.addEventListener(hmUI.event.CLICK_UP, () => {
