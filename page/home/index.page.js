@@ -5,15 +5,29 @@ import { DEVICE_HEIGHT, DEVICE_WIDTH, TOP_BOTTOM_OFFSET } from "./index.style";
 extendLocale({
   "devices": {
       "en-US": "Devices",
-      "es-ES": "Dispositivos"
+      "es-ES": "Dispositivos",
+      "it-IT": "Dispositivi", 
+      "fr-FR": "Appareils",
+      "pt-PT": "Dispositivos", 
+      "zh-CN": "设备", 
+      "ru-RU": "Устройства"
   },
   "scripts": {
       "en-US": "Scripts",
-      "es-ES": "Scripts"
-  },
+      "es-ES": "Scripts",
+      "it-IT": "Script", 
+      "fr-FR": "Scripts", 
+      "pt-PT": "Scripts", 
+      "zh-CN": "脚本", 
+      "ru-RU": "Сценарии" 
   "sensors": {
       "en-US": "Sensors",
-      "es-ES": "Sensores"
+      "es-ES": "Sensores",
+      "it-IT": "Sensori", 
+      "fr-FR": "Capteurs", 
+      "pt-PT": "Sensores", 
+      "zh-CN": "传感器", 
+      "ru-RU": "Датчики" 
   }
 });
 
