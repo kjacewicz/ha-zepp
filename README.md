@@ -6,6 +6,7 @@ This application allows you to control your Home Assistant devices from your Zep
 ### ⌚ Supported devices
 - Xiaomi Band 7
 - Amazfit Band 7
+- Amazfit GTR Mini
 - Amazfit GTR 3 Pro
 - Amazfit GTS 4 Mini
 - Amazfit GTR 4
