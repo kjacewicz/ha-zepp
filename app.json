@@ -15,9 +15,9 @@
   "permissions": [],
   "runtime": {
     "apiVersion": {
-      "compatible": "1.0.0",
-      "target": "1.0.1",
-      "minVersion": "1.0.0"
+      "compatible": "1.0.1",
+      "target": "1.0.2",
+      "minVersion": "1.0.1"
     }
   },
   "debug": true,
@@ -132,6 +132,40 @@
         }
       ],
       "designWidth": 194
+    },
+    "amazfit-gtr-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Verona",
+          "deviceSource": 226
+        },
+        {
+          "name": "VeronaW",
+          "deviceSource": 227
+        }
+      ],
+      "designWidth": 454
     },
     "amazfit-cheetah-pro": {
       "module": {
