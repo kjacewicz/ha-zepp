@@ -22,7 +22,378 @@
   },
   "debug": true,
   "targets": {
-    "mi-band7": {
+    "amazfit-active": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Hannover（海外版）",
+          "deviceSource": 8323329
+        },
+        {
+          "name": "Hannover（国内）",
+          "deviceSource": 8323328
+        }
+      ],
+      "designWidth": 390
+    },
+    "amazfit-balance": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Monaco",
+          "deviceSource": 8519936
+        },
+        {
+          "name": "MonacoWN",
+          "deviceSource": 8519937
+        },
+        {
+          "name": "MonacoW",
+          "deviceSource": 8519939
+        }
+      ],
+      "designWidth": 480
+    },
+    "amazfit-band7": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "amazfit-band7-nfc",
+          "deviceSource": 252
+        },
+        {
+          "name": "amazfit-band7",
+          "deviceSource": 253
+        },
+        {
+          "name": "amazfit-band7-w",
+          "deviceSource": 254
+        }
+      ],
+      "designWidth": 194
+    },
+    "amazfit-cheetah-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Cheetah",
+          "deviceSource": 8126720
+        },
+        {
+          "name": "CheetahW",
+          "deviceSource": 8126721
+        }
+      ],
+      "designWidth": 480
+    },
+    "amazfit-gtr-3-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Madrid",
+          "deviceSource": 229
+        },
+        {
+          "name": "MadridW",
+          "deviceSource": 230
+        },
+        {
+          "name": "Madrid2",
+          "deviceSource": 6095106
+        }
+      ],
+      "designWidth": 480
+    },
+    "amazfit-gtr-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Verona",
+          "deviceSource": 226
+        },
+        {
+          "name": "VeronaW",
+          "deviceSource": 227
+        }
+      ],
+      "designWidth": 454
+    },
+    "amazfit-gtr-4": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Berlin",
+          "deviceSource": 7930112
+        },
+        {
+          "name": "BerlinW",
+          "deviceSource": 7930113
+        }
+      ],
+      "designWidth": 466
+    },
+    "amazfit-gtr-mini": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "LeidenW",
+          "deviceSource": 251
+        }
+      ],
+      "designWidth": 416
+    },
+    "amazfit-gts-4-mini": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Provence",
+          "deviceSource": 246
+        },
+        {
+          "name": "ProvenceW",
+          "deviceSource": 247
+        }
+      ],
+      "designWidth": 336
+    }
+  },
+  "mi-band7": {
       "module": {
         "page": {
           "pages": [
@@ -95,370 +466,6 @@
       ],
       "designWidth": 194
     },
-    "amazfit-band7": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ]
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "amazfit-band7-nfc",
-          "deviceSource": 252
-        },
-        {
-          "name": "amazfit-band7",
-          "deviceSource": 253
-        },
-        {
-          "name": "amazfit-band7-w",
-          "deviceSource": 254
-        }
-      ],
-      "designWidth": 194
-    },
-    "amazfit-gtr-3": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ]
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "Verona",
-          "deviceSource": 226
-        },
-        {
-          "name": "VeronaW",
-          "deviceSource": 227
-        }
-      ],
-      "designWidth": 454
-    },
-    "amazfit-cheetah-pro": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "Cheetah",
-          "deviceSource": 8126720
-        },
-        {
-          "name": "CheetahW",
-          "deviceSource": 8126721
-        }
-      ],
-      "designWidth": 480
-    },
-    "amazfit-active": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "Hannover（海外版）",
-          "deviceSource": 8323329
-        },
-        {
-          "name": "Hannover（国内）",
-          "deviceSource": 8323328
-        }
-      ],
-      "designWidth": 390
-    },
-    "amazfit-gtr-mini": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "LeidenW",
-          "deviceSource": 251
-        }
-      ],
-      "designWidth": 416
-    },
-    "amazfit-balance": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "Monaco",
-          "deviceSource": 8519936
-        },
-        {
-          "name": "MonacoWN",
-          "deviceSource": 8519937
-        },
-        {
-          "name": "MonacoW",
-          "deviceSource": 8519939
-        }
-      ],
-      "designWidth": 480
-    },
-    "amazfit-gtr-3-pro": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "Madrid",
-          "deviceSource": 229
-        },
-        {
-          "name": "MadridW",
-          "deviceSource": 230
-        },
-        {
-          "name": "Madrid2",
-          "deviceSource": 6095106
-        }
-      ],
-      "designWidth": 480
-    },
-    "amazfit-gtr-4": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "Berlin",
-          "deviceSource": 7930112
-        },
-        {
-          "name": "BerlinW",
-          "deviceSource": 7930113
-        }
-      ],
-      "designWidth": 466
-    },
-    "amazfit-gts-4-mini": {
-      "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/devices/index.page",
-            "page/scripts/index.page",
-            "page/sensors/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/sensors_update/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
-      },
-      "platforms": [
-        {
-          "name": "Provence",
-          "deviceSource": 246
-        },
-        {
-          "name": "ProvenceW",
-          "deviceSource": 247
-        }
-      ],
-      "designWidth": 336
-    }
-  },
   "i18n": {
     "en-US": {
       "appName": "Home Assistant"
