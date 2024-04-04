@@ -391,7 +391,6 @@
         }
       ],
       "designWidth": 336
-    }
   },
   "mi-band7": {
       "module": {
@@ -465,7 +464,8 @@
         }
       ],
       "designWidth": 194
-    },
+    }
+  },
   "i18n": {
     "en-US": {
       "appName": "Home Assistant"
