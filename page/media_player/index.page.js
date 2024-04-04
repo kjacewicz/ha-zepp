@@ -51,7 +51,11 @@ Page({
         this.state.widgets = [];
         this.state.rendered = false;
         this.state.y = TOP_BOTTOM_OFFSET; // start from this y to skip rounded border
-        hmUI.redraw();
+        if (typeof hmUI.redraw === 'function') {
+          hmUI.redraw();
+        } else {
+          logger.debug("Zepp OS 1 not supported redraw function.");
+        }
     },
     drawTextMessage(message, button) {
         this.clearWidgets();
