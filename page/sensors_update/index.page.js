@@ -42,7 +42,11 @@ Page({
     if (this.state.textWidget != null) {
       hmUI.deleteWidget(this.state.textWidget);
       this.state.textWidget = null;
-      hmUI.redraw();
+      if (typeof hmUI.redraw === 'function') {
+        hmUI.redraw();
+      } else {
+        logger.debug("Zepp OS 1 not supported redraw function.");
+      }
     }
   },
   drawTextMessage(message) {
