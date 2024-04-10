@@ -123,20 +123,20 @@ AppSettingsPage({
       );
     });
     return Section({}, [
-      Section({ style: {fontSize: '17px',fontWeight: 'bold',paddingLeft: '10px',paddingTop: '5px',paddingBottom: '5px'} }, "Home Assistant Access"),
-      Section({ style: {fontSize: '15px',paddingLeft: '10px'} }, "Local HA instance address"),
+      Section({ style: {fontSize: '17px',fontWeight: 'bold',paddingLeft: '10px',paddingTop: '5px',paddingBottom: '5px'} }, gettext('Access')),
+      Section({ style: {fontSize: '15px',paddingLeft: '10px'} }, gettext('IPLocal')),
       Section({ style: {fontSize: '13px',fontStyle: 'italic',paddingLeft: '10px'} }, "e.g. http://homeassistant.local:8123/"),
       TextInput({
         settingsKey: "localHAIP",
         subStyle: textInputStyle,
       }),
-      Section({ style: {fontSize: '15px',paddingLeft: '10px'} }, "External HA instance address"),
+      Section({ style: {fontSize: '15px',paddingLeft: '10px'} }, gettext('IPExternal')),
       Section({ style: {fontSize: '13px',fontStyle: 'italic',paddingLeft: '10px'} }, "e.g. https://aguacatec.es/"),
       TextInput({
         settingsKey: "externalHAIP",
         subStyle: textInputStyle,
       }),
-      Section({ style: {fontSize: '15px',paddingLeft: '10px'} }, "Long access token"),
+      Section({ style: {fontSize: '15px',paddingLeft: '10px'} }, gettext('LongToken')),
       Section({ style: {fontSize: '13px',fontStyle: 'italic',paddingLeft: '10px'} }, "Create it from your profile in HA"),
       TextInput({
         settingsKey: "HAToken",
@@ -163,7 +163,7 @@ AppSettingsPage({
       Section(
         {},
         Button({ style: {marginLeft: '75%',marginTop: '-75px',height: '28px'},
-          label: "Search",
+          label: gettext('Search'),
           async onClick() {
             props.settingsStorage.removeItem("entityList");
             props.settingsStorage.setItem("listFetchRandom", Math.random());
