@@ -66,7 +66,7 @@ Page({
   },
   drawError(message) {
     vibrate.start();
-    let text = "Error during sensor update";
+    let text = t("Error during sensor update");
     if (typeof message === "string") {
       text += ":\n";
       text += message;
@@ -74,7 +74,7 @@ Page({
     return this.drawTextMessage(text);
   },
   updateSensors() {
-    this.drawTextMessage("Updating sensors\nto Home Assistant");
+    this.drawTextMessage(t("Updating sensors\nto Home Assistant"));
     this.updateHeartRate();
     this.updateSleep();
     this.updateBattery();
