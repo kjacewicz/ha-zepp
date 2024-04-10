@@ -137,7 +137,7 @@ AppSettingsPage({
         subStyle: textInputStyle,
       }),
       Section({ style: {fontSize: '15px',paddingLeft: '10px'} }, gettext('LongToken')),
-      Section({ style: {fontSize: '13px',fontStyle: 'italic',paddingLeft: '10px'} }, "Create it from your profile in HA"),
+      Section({ style: {fontSize: '13px',fontStyle: 'italic',paddingLeft: '10px'} }, gettext('FromProfile')),
       TextInput({
         settingsKey: "HAToken",
         subStyle: textInputStyle,
@@ -151,11 +151,11 @@ AppSettingsPage({
           },
         })
       ),
-      Section({ style: {fontSize: '15px',marginLeft: '60px',marginTop: '-30px'} }, "Update sensor data to HA every hour (BETA)"),
-      Section({ style: {fontSize: '13px',fontStyle: 'italic',marginLeft: '60px'} }, "It works better if you turn all notifications OFF"),
-      Section({ style: {fontSize: '17px',fontWeight: 'bold',paddingLeft: '10px',paddingTop: '10px',paddingBottom: '5px'} }, "Entities"),
-      Text({ style: {fontSize: '15px',paddingLeft: '10px'} }, "Search for the entities you want to control"),
-      Section({ style: {fontSize: '13px',fontStyle: 'italic',paddingLeft: '10px',paddingRight: '50px'} }, "You can search for an entity id (e.g. light.bulb), a whole domain (e.g. light), or leave it empty to show all your controllable entities (media player, light, switch, input_boolean, script, automation and binary sensor entities are supported)"),
+      Section({ style: {fontSize: '15px',marginLeft: '60px',marginTop: '-30px'} }, gettext('UpdateSensor')),
+      Section({ style: {fontSize: '13px',fontStyle: 'italic',marginLeft: '60px'} }, gettext('WorksBetter')),
+      Section({ style: {fontSize: '17px',fontWeight: 'bold',paddingLeft: '10px',paddingTop: '10px',paddingBottom: '5px'} }, gettext('Entities')),
+      Text({ style: {fontSize: '15px',paddingLeft: '10px'} }, gettext('SearchEntities')),
+      Section({ style: {fontSize: '13px',fontStyle: 'italic',paddingLeft: '10px',paddingRight: '50px'} }, gettext('SearchEntitiesEG')),
       TextInput({
         subStyle: textInputStyle2,
         settingsKey: "filter",
