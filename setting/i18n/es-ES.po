@@ -1,0 +1,14 @@
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Access"
+msgstr "Acceso Home Assistant"
+
+msgid "IPLocal"
+msgstr "Dirección de instancia de HA local"
+
+msgid "IPExternal"
+msgstr "Dirección de instancia de HA externa"
+
+msgid "LongToken"
+msgstr "Token de larga Duracion"
