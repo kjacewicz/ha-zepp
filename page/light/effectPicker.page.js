@@ -57,7 +57,7 @@ Page({
                 y: this.state.y,
                 w: DEVICE_WIDTH / 3,
                 h: 32,
-                text: "Effect:",
+                text: t("Effect"),
                 text_size: 17,
                 color: 0xffffff,
                 align_h: hmUI.align.LEFT,

@@ -130,7 +130,7 @@ Page({
             y: this.state.y + titleHeight,
             w: DEVICE_WIDTH / 2,
             h: valueHeight,
-            text: "Details",
+            text: t("details"),
             normal_color: 0x18bcf2,
             press_color: 0x61cef2,
             radius: 20,
@@ -184,7 +184,7 @@ Page({
       y: this.state.y + titleHeight,
       w: DEVICE_WIDTH / 2,
       h: valueHeight,
-      text: "Details",
+      text: t("details"),
       normal_color: 0x18bcf2,
       press_color: 0x61cef2,
       radius: 20,
@@ -219,7 +219,7 @@ Page({
       y: this.state.y + titleHeight,
       w: DEVICE_WIDTH / 2,
       h: valueHeight,
-      text: item.state === "on" ? "Cancel" : "Run",
+      text: item.state === "on" ? t("Cancel") : t("Run"),
       normal_color: 0x18bcf2,
       press_color: 0x61cef2,
       radius: 20,
@@ -307,13 +307,13 @@ Page({
     return;
   },
   drawNoBLEConnect() {
-    return this.drawTextMessage("No connection to\n the application");
+    return this.drawTextMessage(t("No connection to\n the application"));
   },
   drawWait() {
-    return this.drawTextMessage("Loading...");
+    return this.drawTextMessage(t("Loading..."));
   },
   drawError(message) {
-    let text = "An error occurred";
+    let text = t("An error occurred");
     if (typeof message === "string") {
       text += ":\n";
       text += message;

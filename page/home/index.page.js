@@ -2,36 +2,6 @@
 import {t, extendLocale} from "../../lib/i18n";
 import { DEVICE_HEIGHT, DEVICE_WIDTH, TOP_BOTTOM_OFFSET } from "./index.style";
 
-extendLocale({
-  "devices": {
-      "en-US": "Devices",
-      "es-ES": "Dispositivos",
-      "it-IT": "Dispositivi", 
-      "fr-FR": "Appareils",
-      "pt-PT": "Dispositivos", 
-      "zh-CN": "设备", 
-      "ru-RU": "Устройства"
-  },
-  "scripts": {
-      "en-US": "Scripts",
-      "es-ES": "Scripts",
-      "it-IT": "Script", 
-      "fr-FR": "Scripts", 
-      "pt-PT": "Scripts", 
-      "zh-CN": "脚本", 
-      "ru-RU": "Сценарии" 
-  },  
-  "sensors": {
-      "en-US": "Sensors",
-      "es-ES": "Sensores",
-      "it-IT": "Sensori", 
-      "fr-FR": "Capteurs", 
-      "pt-PT": "Sensores", 
-      "zh-CN": "传感器", 
-      "ru-RU": "Датчики" 
-  }
-});
-
 const {
   messageBuilder,
   FS_REF_SENSORS_UPDATE_ALARM_ID,
@@ -323,7 +293,7 @@ Page({
       y: this.state.y + titleHeight,
       w: DEVICE_WIDTH / 2,
       h: valueHeight,
-      text: item.state === "on" ? "Cancel" : "Run",
+      text: item.state === "on" ? t("Cancel") : t("Run"),
       normal_color: 0x18bcf2,
       press_color: 0x61cef2,
       radius: 20,
@@ -415,10 +385,10 @@ Page({
     return;
   },
   drawNoBLEConnect() {
-    return this.drawTextMessage("No connection to\n the application");
+    return this.drawTextMessage(t("No connection to\n the application"));
   },
   drawWait() {
-    //this.drawTextMessage("Loading...");
+    //this.drawTextMessage(t("Loading..."));
     return this.createWidget(hmUI.widget.IMG_ANIM, {
       anim_path: 'loading',
       anim_prefix: 'loading',
@@ -432,7 +402,7 @@ Page({
     });
   },
   drawError(message) {
-    let text = "An error occurred";
+    let text = t("An error occurred");
     if (typeof message === "string") {
       text += ":\n";
       text += message;

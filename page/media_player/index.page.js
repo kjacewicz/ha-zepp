@@ -87,7 +87,7 @@ Page({
           });
     },
     drawError(message) {
-        let text = "An error occurred";
+        let text = t("An error occurred");
         if (typeof message === 'string') {
             text += ':\n';
             text += message;
