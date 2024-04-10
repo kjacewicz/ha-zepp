@@ -22,6 +22,7 @@ We are making changes in order to suppport more Zepp devices, if you have one as
 - Control your devices (toggle switch, toggle light and see its effect if presented, change its brightness if possible, control media entities with play/pause, prev/next, volume control)
 - Run your scripts and automations
 - Show sensors data in your device
+- Multiple languages ​​supported: English, Spanish, Catalan, Italian, French, Portuguese, Russian, Chinese and Japanese
 
 ### 📦 Installation guide
 #### ⚠️ If you have a Xiaomi Band 7!!
