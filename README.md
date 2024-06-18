@@ -10,6 +10,7 @@ This application allows you to control your Home Assistant devices from your Zep
 - Amazfit GTR 3 
 - Amazfit GTR 3 Pro
 - Amazfit GTS 4 Mini
+- Amazfit GTS 4
 - Amazfit GTR 4
 - Amazfit Cheetah Pro
 - Amazfit Active
