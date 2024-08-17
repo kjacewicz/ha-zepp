@@ -359,8 +359,23 @@
       "module": {
         "page": {
           "pages": [
-            "page/index"
-          ]
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
         },
         "app-side": {
           "path": "app-side/index"
