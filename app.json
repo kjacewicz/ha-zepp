@@ -386,6 +386,10 @@
       },
       "platforms": [
         {
+          "name": "Florence",
+          "deviceSource": 7864576
+        },
+        {
           "name": "FlorenceW",
           "deviceSource": 7864577
         }
