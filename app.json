@@ -386,11 +386,11 @@
       },
       "platforms": [
         {
-          "name": "Florence",
+          "name": "gtr-4le1",
           "deviceSource": 7864576
         },
         {
-          "name": "FlorenceW",
+          "name": "gtr-4le2",
           "deviceSource": 7864577
         }
       ],
