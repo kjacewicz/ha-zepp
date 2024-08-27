@@ -314,6 +314,47 @@
       ],
       "designWidth": 454
     },
+    "amazfit-gts-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/home/index.page",
+            "page/devices/index.page",
+            "page/scripts/index.page",
+            "page/sensors/index.page",
+            "page/light/index.page",
+            "page/light/effectPicker.page",
+            "page/media_player/index.page",
+            "page/sensors_update/index.page",
+            "page/test_page/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Home Assistant",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Zurich",
+          "deviceSource": 224
+        },
+        {
+          "name": "ZurichW",
+          "deviceSource": 225
+        }
+      ],
+      "designWidth": 390
+    },  
     "amazfit-gtr-4": {
       "module": {
         "page": {
